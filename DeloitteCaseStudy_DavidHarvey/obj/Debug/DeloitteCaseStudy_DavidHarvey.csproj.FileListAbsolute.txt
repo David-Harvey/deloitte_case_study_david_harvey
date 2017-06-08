@@ -1,0 +1,6 @@
+c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\bin\Debug\DeloitteCaseStudy_DavidHarvey.exe.config
+c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\bin\Debug\DeloitteCaseStudy_DavidHarvey.exe
+c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\bin\Debug\DeloitteCaseStudy_DavidHarvey.pdb
+c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\obj\Debug\DeloitteCaseStudy_DavidHarvey.exe
+c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\obj\Debug\DeloitteCaseStudy_DavidHarvey.pdb
+c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\bin\Debug\sampledata.txt

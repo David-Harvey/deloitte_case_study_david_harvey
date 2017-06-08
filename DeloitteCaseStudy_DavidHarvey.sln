@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeloitteCaseStudy_DavidHarvey", "DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey.csproj", "{27B2069D-26CB-4FE2-8F95-91B10750C249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeloitteCaseStudy_DavidHarvey.Tests", "DeloitteCaseStudy_DavidHarvey.Tests\DeloitteCaseStudy_DavidHarvey.Tests.csproj", "{91FBAE2F-CB11-4D18-A08A-63572482CDE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B2069D-26CB-4FE2-8F95-91B10750C249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B2069D-26CB-4FE2-8F95-91B10750C249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B2069D-26CB-4FE2-8F95-91B10750C249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B2069D-26CB-4FE2-8F95-91B10750C249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FBAE2F-CB11-4D18-A08A-63572482CDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FBAE2F-CB11-4D18-A08A-63572482CDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FBAE2F-CB11-4D18-A08A-63572482CDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FBAE2F-CB11-4D18-A08A-63572482CDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
