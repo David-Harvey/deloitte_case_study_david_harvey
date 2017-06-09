@@ -131,14 +131,14 @@ namespace DeloitteCaseStudy_DavidHarvey.Tests.ActivityOrganiserTests
 
         It should_not_return_null = () => results.ShouldNotBeNull();
 
-        It should_contain_only_the_following_results_ordered_from_longest_to_shortest = () => results.ShouldContainOnly
+        It should_schedule_activties_by_setting_their_appropriate_start_times = () => results.ShouldContainOnly
         (
             "",
             "Team 1:",
             "",
             "09:00 - Fake activity 1 60min",
-            "10:00 - Fake activity 3 45min",
-            "10:45 - Fake activity 2 30min",
+            "10:00 - Fake activity 2 30min",
+            "10:30 - Fake activity 3 45min",
             "11:15 - Staff Motivation Presentation"
         );
     }
@@ -256,22 +256,22 @@ namespace DeloitteCaseStudy_DavidHarvey.Tests.ActivityOrganiserTests
             "Team 1:",
             "",
             "09:00 - Fake activity 1 60min",
-            "10:00 - Fake activity 8 60min",
-            "11:00 - Fake activity 5 50min",
-            "13:00 - Fake activity 2 45min",
-            "13:45 - Fake activity 12 45min",
-            "14:30 - Fake activity 11 40min",
-            "15:10 - Staff Motivation Presentation",
+            "10:00 - Fake activity 2 45min",
+            "10:45 - Fake activity 3 30min",
+            "11:15 - Fake activity 4 40min",
+            "13:00 - Fake activity 5 50min",
+            "13:50 - Fake activity 6 45min",
+            "14:35 - Fake activity 7 60min",
+            "15:35 - Fake activity 8 60min",
+            "16:35 - Staff Motivation Presentation",
             "",
             "Team 2:",
             "",
-            "09:00 - Fake activity 7 60min",
-            "10:00 - Fake activity 10 55min",
-            "10:55 - Fake activity 9 50min",
-            "13:00 - Fake activity 6 45min",
-            "13:45 - Fake activity 4 40min",
-            "14:25 - Fake activity 3 30min",
-            "14:55 - Staff Motivation Presentation"
+            "09:00 - Fake activity 9 50min",
+            "09:50 - Fake activity 10 55min",
+            "10:45 - Fake activity 11 40min",
+            "13:00 - Fake activity 12 45min",
+            "13:45 - Staff Motivation Presentation"
         );
     }
 
@@ -348,94 +348,6 @@ namespace DeloitteCaseStudy_DavidHarvey.Tests.ActivityOrganiserTests
         It should_allocate_15_minutes_to_any_activity_which_does_not_have_a_time_specified = () =>
         {
             results.Any(a => a.Name == "Salsa & Pickles sprint" && a.TimeAllocated == 15).ShouldBeTrue();
-        };
-    }
-
-    #endregion
-
-    #region .SpliSplitActivityTimeBetweenGroups Tests
-
-    class when_I_call_SpliSplitActivityTimeBetweenGroups_with_one_group
-    {
-        private static ActivityOrganiser organiser = null;
-        private static IDictionary<IBaseActivity, int> results = null;
-        private static ISchedule schedule = null;
-        private static int grouping = 1;
-
-        Establish context = () =>
-        {
-            schedule = new FakeSchedule
-            {
-                StartTime = 9,
-                EndTime = 12
-            };
-
-            organiser = new ActivityOrganiser
-            {
-                Activities = new List<IActivity>
-                {
-                    new FakeActivity { Name = "Fake activity 1", TimeAllocated = 45 },
-                    new FakeActivity { Name = "Fake activity 2", TimeAllocated = 60 },
-                    new FakeActivity { Name = "Fake activity 3", TimeAllocated = 50 }
-                },
-                Grouping = grouping,
-                Schedules = new List<ISchedule>
-                {
-                    schedule
-                }
-            };
-        };
-
-        Because of = () => results = organiser.SplitActivityTimeBetweenGroups();
-
-        It should_return_the_activities_ordered_by_time_allocated_descending = () =>
-        {
-            results.Values.ShouldContain(1, 1, 1);
-            results.Keys.Select(k => k.Name).ShouldContain("Fake activity 2", "Fake activity 3", "Fake activity 1");
-        };
-    }
-
-    class when_I_call_SpliSplitActivityTimeBetweenGroups_with_two_groups
-    {
-        private static ActivityOrganiser organiser = null;
-        private static IDictionary<IBaseActivity, int> results = null;
-        private static ISchedule schedule = null;
-        private static int grouping = 2;
-
-        Establish context = () =>
-        {
-            schedule = new FakeSchedule
-            {
-                StartTime = 9,
-                EndTime = 12
-            };
-
-            organiser = new ActivityOrganiser
-            {
-                Activities = new List<IActivity>
-                {
-                    new FakeActivity { Name = "Fake activity 1", TimeAllocated = 45 },
-                    new FakeActivity { Name = "Fake activity 2", TimeAllocated = 60 },
-                    new FakeActivity { Name = "Fake activity 3", TimeAllocated = 50 },
-                    new FakeActivity { Name = "Fake activity 4", TimeAllocated = 60 },
-                    new FakeActivity { Name = "Fake activity 5", TimeAllocated = 55 },
-                    new FakeActivity { Name = "Fake activity 6", TimeAllocated = 40 }
-                },
-                Grouping = grouping,
-                Schedules = new List<ISchedule>
-                {
-                    schedule
-                }
-            };
-        };
-
-        Because of = () => results = organiser.SplitActivityTimeBetweenGroups();
-
-        It should_return_the_activities_ordered_by_time_allocated_descending = () =>
-        {
-            results.Values.ShouldContain(1, 2, 1, 2, 1, 2);
-            results.Keys.Select(k => k.Name).ShouldContain("Fake activity 2", "Fake activity 4", "Fake activity 5"
-                                                         , "Fake activity 3", "Fake activity 1", "Fake activity 6");
         };
     }
 
