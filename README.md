@@ -49,7 +49,7 @@ Provides the output of the application that is provided by the IScheduler.
 ### Repository (GitHub): https://github.com/David-Harvey/deloitte_case_study_david_harvey
 
 ### Requirements:
-This app will require you to run it using window with .NET 4.5.2 installed or greater, and or Visual Studio 2017. 
+This app will require you to run it using window with .NET 4.6.1 installed or greater, and or Visual Studio 2017. 
 
 There are two ways to run this application:
 - Via command line 
