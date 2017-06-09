@@ -63,6 +63,7 @@
     <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcceptanceTests.cs" />
     <Compile Include="ActivityOrganiserTests.cs" />
     <Compile Include="ActivityTests.cs" />
     <Compile Include="FileProviderTests.cs" />

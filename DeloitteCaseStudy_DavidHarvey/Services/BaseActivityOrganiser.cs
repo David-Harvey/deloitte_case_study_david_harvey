@@ -44,8 +44,6 @@ namespace DeloitteCaseStudy_DavidHarvey
 
             var results = new List<string>();
 
-            var groupActivities = SplitActivityTimeBetweenGroups();
-
             for (int i = 1; i <= Grouping; i++)
             {
                 results.Add("");
@@ -62,12 +60,12 @@ namespace DeloitteCaseStudy_DavidHarvey
                     var minutesUsed = 0;
                     var isLastSchedule = Schedules.Last().Equals(schedule);
 
-                    foreach (var groupActivity in groupActivities.Where(g => g.Value == i && !g.Key.IsActivityAllocated))
+                    while (Activities.Any(a => !a.IsActivityAllocated))
                     {
-                        var activity = groupActivity.Key;
-                        bool isNextActivityAbleToFit = (availableMinutes - minutesUsed) >= activity.TimeAllocated;
+                        var minutesLeft = availableMinutes - minutesUsed;
+                        var activity = Activities.FirstOrDefault(a => !a.IsActivityAllocated && a.TimeAllocated <= minutesLeft);
 
-                        if (isNextActivityAbleToFit)
+                        if (activity != null)
                         {
                             results.Add($"{activityTime.ToString("HH:mm")} - {activity.Name} {activity.TimeAllocated}min");
                             minutesUsed += activity.TimeAllocated;
@@ -89,29 +87,6 @@ namespace DeloitteCaseStudy_DavidHarvey
             }
 
             return results;
-        }
-
-        public IDictionary<IBaseActivity, int> SplitActivityTimeBetweenGroups()
-        {
-            var groupings = new Dictionary<IBaseActivity, int>();
-
-            var orderedActivities = Activities.OrderByDescending(d => d.TimeAllocated);
-
-            int currentGroup = 1;
-
-            for (int i = 0; i <= Activities.Count() - 1; i++)
-            {
-                var activity = orderedActivities.ElementAt(i);
-
-                groupings.Add(activity, currentGroup);
-
-                if (currentGroup == Grouping)
-                { currentGroup = 1; continue; }
-
-                currentGroup++;
-            }
-
-            return groupings;
         }
 
         public abstract IEnumerable<IBaseActivity> Parse(IEnumerable<string> data, ISettings settings);

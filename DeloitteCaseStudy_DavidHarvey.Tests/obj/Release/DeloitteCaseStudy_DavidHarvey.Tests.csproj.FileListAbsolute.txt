@@ -18,6 +18,11 @@ c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseSt
 c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey.Tests\obj\Release\DeloitteCaseStudy_DavidHarvey.Tests.csprojResolveAssemblyReference.cache
 c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey.Tests\obj\Release\DeloitteCaseStudy_DavidHarvey.Tests.dll
 c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey.Tests\obj\Release\DeloitteCaseStudy_DavidHarvey.Tests.pdb
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Mono.Cecil.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Mono.Cecil.Mdb.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Mono.Cecil.Rocks.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Machine.TestAdapter.dll
 C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey.Tests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll

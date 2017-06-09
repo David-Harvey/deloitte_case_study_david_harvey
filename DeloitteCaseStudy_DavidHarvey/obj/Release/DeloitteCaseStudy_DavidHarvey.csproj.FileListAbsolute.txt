@@ -4,3 +4,14 @@ c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseSt
 c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\bin\Release\DeloitteCaseStudy_DavidHarvey.pdb
 c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\obj\Release\DeloitteCaseStudy_DavidHarvey.exe
 c:\users\harve\onedrive\old\documents\visual studio 2017\Projects\DeloitteCaseStudy_DavidHarvey\DeloitteCaseStudy_DavidHarvey\obj\Release\DeloitteCaseStudy_DavidHarvey.pdb
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\Mono.Cecil.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\Mono.Cecil.Mdb.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\Mono.Cecil.Rocks.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\Machine.TestAdapter.dll
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\sampledata.txt
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\DeloitteCaseStudy_DavidHarvey.exe.config
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\DeloitteCaseStudy_DavidHarvey.exe
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\bin\Release\DeloitteCaseStudy_DavidHarvey.pdb
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\obj\Release\DeloitteCaseStudy_DavidHarvey.exe
+C:\Users\Harve\OneDrive\Old\Documents\Visual Studio 2017\Projects\deloitte_case_study_david_harvey\DeloitteCaseStudy_DavidHarvey\obj\Release\DeloitteCaseStudy_DavidHarvey.pdb
